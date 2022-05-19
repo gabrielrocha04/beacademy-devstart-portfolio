@@ -11,6 +11,10 @@ p{
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 .btn{
     background-color: #C824EC;
     color: white;

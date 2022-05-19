@@ -79,7 +79,7 @@ a{
 .presentation{
     width: auto;
     height: 60vh;
-    margin-top: 240px;
+    margin-top: 250px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.11);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -90,6 +90,7 @@ a{
 .presentation .who-are-me{
     font-size: 2.5em;
     font-weight: bold;
+    margin: 20px 0px ;
 }
 
 .presentation .about-me{
@@ -97,11 +98,10 @@ a{
 }
 .presentation .group-about-me{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .presentation .group-about-me .profile{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 50px 50px;
 }
 /*Forms*/
 

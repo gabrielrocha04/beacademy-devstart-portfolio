@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap'); /*Medium*/
 body{
     margin: 0;
-    background: linear-gradient(-45deg, rgb(105, 0, 153) 1%, rgba(0,0,0,1) 70%);
+    /*background: linear-gradient(-45deg, rgb(105, 0, 153) 1%, rgba(0,0,0,1) 50%,rgb(105, 0, 153, 100%) 100% );*/
+    background: linear-gradient(-45deg, rgba(2,0,3,1) 15%, rgba(105,0,153,1) 50%, rgba(0,0,0,1) 95%);  
     background-repeat: no-repeat;
     height: 100%;
     overflow-x: hidden;
@@ -24,6 +25,7 @@ a{
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 6px;
+    border-style: none;
 }
 /*Menu*/
 .menu{
@@ -81,7 +83,7 @@ a{
     height: 60vh;
     margin-top: 250px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.11);
+    background: rgba(255, 255, 255, 0.036);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.6px);
     -webkit-backdrop-filter: blur(9.6px);
@@ -117,10 +119,6 @@ a{
     font-weight: bold;
 }
 
-.form-contact .form{
-    
-}
-
 input{
     position: static;
     width: 98%;
@@ -152,6 +150,11 @@ textarea{
     border: none;
     margin-left: 370px;
 }
-
+/*Links*/
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
 
 

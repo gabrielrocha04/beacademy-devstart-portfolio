@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap'); /*Medium*/
 body{
     margin: 0;
-    background: linear-gradient(-45deg, rgb(105, 0, 153) 1%, rgba(0,0,0,1) 50%);
+    background: linear-gradient(-45deg, rgb(105, 0, 153) 1%, rgba(0,0,0,1) 70%);
     background-repeat: no-repeat;
     height: 100%;
     overflow-x: hidden;
@@ -104,4 +104,54 @@ a{
     margin: 0px 0px 50px 50px;
 }
 /*Forms*/
+.form-contact{
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-contact .contact{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.form-contact .form{
+    
+}
+
+input{
+    position: static;
+    width: 98%;
+    height: 5.2vh;
+    background-color: #181618b5;
+    border-radius: 30px;
+    border: 5px solid #450d5f;
+    font-family:'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+textarea{
+    background-color: #181618b5;
+    border-radius: 15px;
+    border: 5px solid #450d5f;
+    font-family:'Orbitron', sans-serif; 
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.form-contact .form .input-btn{
+    width: 170.56px;
+    height: 44px;
+    background-color: #C824EC;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: none;
+    margin-left: 370px;
+}
+
+
 
